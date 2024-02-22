@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import LogOrSign from "./components/logOrSign/LogOrSign";
 
 function App() {
-
   return (
-    <>
-     <h1>Hello</h1>
-    </>
-  )
+    <div className="wrapper">
+      <LogOrSign />
+    </div>
+  );
 }
 
-export default App
+export default App;
